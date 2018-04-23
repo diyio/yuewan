@@ -1,0 +1,127 @@
+#goods{
+    padding: 0;
+}
+.gitem {
+    width: 170px;
+    float: left;
+    text-align: center;
+    margin: 10px 0 0 10px;
+    list-style: none;
+
+}
+
+.gitem div{
+    width: 80%;
+    height: 280px;
+    padding: 10px;
+    position: relative;
+    border: 1px #aaaaaa solid;
+    text-align: left;
+    background-color: rgba(255,255,255,0.7) !important;
+}
+.gitem h2{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    color: #111111;
+    line-height: 20px;
+}
+.gitem p{
+    font-size: 10px;
+    color: #980000;
+    padding: 0;
+
+    margin-top: 3px;
+}
+.gitem h3{
+    font-size: 10px;
+    color: #666;
+}
+.gitem img{
+    width: 100%;
+    height: 140px;
+}
+
+
+
+.starcontainer2{
+    width: 175px;
+    height: 35px;
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+
+
+.pingjiastar2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 35px;
+    width: 175px;
+    background-image: url('../images/detail_star_open.png');
+    z-index: 0;
+}
+
+.pingjiastarup2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 35px;
+    background-image: url('../images/detail_star_full.png');
+    z-index: 1;
+}
+
+.pingjiastarclick{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 35px;
+    width: 175px;
+    z-index: 999;
+}
+
+.listimg{
+    height: 80px !important;
+}
+
+
+
+.choosepicctn{
+    text-align: center;
+}
+.choosepicctn .inputimgshow{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+.choosepicctn a{
+    display: block;
+    margin-top: 10px;
+}
+
+.optionctn2{
+
+}
+.optionctn2 a{
+    margin-right: 10px;
+    text-decoration: underline;
+    line-height: 20px;
+    color: #0c3b6e !important;
+}
+#goodslist2 li{
+    background-color: #fff;
+    padding: 10px;
+}
+.myheader{
+    background-color: rgba(255,255,255,0.7) !important;
+}
+.myfooter{
+    opacity: 0.9; !important;
+}
+.mypage{
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    background-image: url('../images/bg6.jpg');
+}
